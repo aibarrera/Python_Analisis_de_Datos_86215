@@ -2,7 +2,7 @@
 
 Material de apoyo del curso. Acá vas a encontrar los notebooks de cada clase, para abrirlos y practicar desde el navegador, **sin instalar nada**.
 
-**Instructura:** Ailén Iglesias Barrera
+**Instructora:** Ailén Iglesias Barrera
 
 Sábados de 10 a 13hs
 
@@ -12,8 +12,12 @@ Sábados de 10 a 13hs
 |---|---|
 | `clase1_alumnos.ipynb` | Notebook de la Clase 1: datos, variables y colecciones. Lo completamos en clase |
 | `clase1_repaso.ipynb` | Repaso para hacer durante la semana, desde cero, con autoevaluación |
+| `clase2_parte1_repaso_modulo1_alumnos.ipynb` | Clase 2 · Parte 1: repaso del Módulo 1 (variables, colecciones, control de flujo y listas por comprensión) |
+| `clase2_parte2_funciones_alumnos.ipynb` | Clase 2 · Parte 2: Módulo 2 (funciones, argumentos, `map`/`filter`, `lambda`, `sorted` y módulos) |
 
 > Cada semana se suman nuevos notebooks.
+
+> 📘 **La teoría oficial está en las presentaciones del aula virtual.** Los notebooks las acompañan con práctica y no las reemplazan: en cada sección se indica qué presentación consultar.
 
 ## 🛠️ ¿Con qué herramientas trabajamos?
 
@@ -36,6 +40,8 @@ Hacé clic en el botón de cada notebook:
 |---|---|
 | Clase 1 | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase1_alumnos.ipynb) |
 | Repaso | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase1_repaso.ipynb) |
+| Clase 2 · Parte 1 (repaso Módulo 1) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase2_parte1_repaso_modulo1_alumnos.ipynb) |
+| Clase 2 · Parte 2 (Módulo 2: funciones) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase2_parte2_funciones_alumnos.ipynb) |
 
 ### Cómo se usa
 1. **Iniciá sesión** con tu cuenta de Google si te lo pide.
@@ -93,7 +99,9 @@ Durante la semana vamos a ver y a profundizar en cómo trabajar **en tu computad
 - [Encuesta de Sueldos 2026.01 · OpenQube](https://sueldos.openqube.io/encuesta-sueldos-2026.01/): datos reales que usamos como ejemplo.
 
 ## 📝 Sobre el material
-Los datos de ejemplo son **ficticios**, salvo los números de la Encuesta de Sueldos, que se citan con su fuente.
+Los datos de ejemplo son **ficticios** (la cadena de tiendas **ModaSur** de la Clase 2), salvo los números de la Encuesta de Sueldos, que se citan con su fuente.
+
+En la Clase 2, la parte 2 crea un archivo `modulo_modasur.py` al ejecutarse (con `%%writefile`): no hace falta descargarlo, el propio notebook lo genera.
 
 ---
 ### Sitio para aprender estadistica
