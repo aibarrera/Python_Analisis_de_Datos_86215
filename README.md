@@ -6,26 +6,34 @@ Material de apoyo del curso. Acá vas a encontrar los notebooks de cada clase, p
 
 Sábados de 10 a 13hs
 
-## 📁 Contenido
+> 📘 **La teoría oficial está en las presentaciones del aula virtual.** Los notebooks las acompañan con práctica y no las reemplazan: en cada sección se indica qué presentación consultar.
 
-| Archivo | Qué es |
-|---|---|
-| `clase1_alumnos.ipynb` | Notebook de la Clase 1: datos, variables y colecciones. Lo completamos en clase |
-| `clase1_repaso.ipynb` | Repaso para hacer durante la semana, desde cero, con autoevaluación |
-| `clase2_parte1_repaso_modulo1_alumnos.ipynb` | Clase 2 · Parte 1: repaso del Módulo 1 (variables, colecciones, control de flujo y listas por comprensión) |
-| `clase2_parte2_funciones_alumnos.ipynb` | Clase 2 · Parte 2: Módulo 2 (funciones, argumentos, `map`/`filter`, `lambda`, `sorted` y módulos) |
+---
+
+## 📁 Contenido por clase
+
+| Clase | Notebook | Tema | Presentación (aula virtual) | Abrir en Colab |
+|---|---|---|---|---|
+| 1 | `clase1_alumnos.ipynb` | Datos, variables y colecciones. Lo completamos en clase | Módulo 1 | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase1_alumnos.ipynb) |
+| 1 | `clase1_repaso.ipynb` | Repaso para hacer durante la semana, con autoevaluación | Módulo 1 | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase1_repaso.ipynb) |
+| 2 · Parte 1 | `clase2_parte1_repaso_modulo1_alumnos.ipynb` | Repaso del Módulo 1: variables, colecciones, control de flujo y listas por comprensión | Módulo 1 | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase2_parte1_repaso_modulo1_alumnos.ipynb) |
+| 2 · Parte 2 | `clase2_parte2_funciones_alumnos.ipynb` | Módulo 2: funciones, argumentos, `map`/`filter`, `lambda`, `sorted` y módulos | Módulo 2 | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase2_parte2_funciones_alumnos.ipynb) |
+| 3 · Parte 1 | `clase3_parte1_repaso_alumnos.ipynb` | Repaso exprés: listas por comprensión, `*args`/`**kwargs`, `map`/`filter`, `lambda`/`sorted`/`key` y módulos | Módulos 1 y 2 | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase3_parte1_repaso_alumnos.ipynb) |
+| 3 · Parte 2 | `clase3_parte2_numpy_alumnos.ipynb` | Módulo 3 · NumPy: arrays, indexing, vectorización, broadcasting, filtros, agregaciones y álgebra lineal | Módulo 3 (ppt 1 a 4) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase3_parte2_numpy_alumnos.ipynb) |
 
 > Cada semana se suman nuevos notebooks.
 
-> 📘 **La teoría oficial está en las presentaciones del aula virtual.** Los notebooks las acompañan con práctica y no las reemplazan: en cada sección se indica qué presentación consultar.
+---
 
 ## 🛠️ ¿Con qué herramientas trabajamos?
 
 | Herramienta | Cuándo | Necesita instalación |
 |---|---|---|
-| **Google Colab** | Clase 1 y principal herramienta por ahora | No (solo una cuenta de Google) |
+| **Google Colab** | Principal herramienta por ahora | No (solo una cuenta de Google) |
 | **Jupyter online** (JupyterLite) | Alternativa si no tenés cuenta de Google | No |
 | **Versión de escritorio** (Anaconda o editor de texto) | La vemos y profundizamos durante la semana | Sí |
+
+> 💡 **NumPy ya viene instalado en Colab**: para la Clase 3 alcanza con ejecutar `import numpy as np`.
 
 ---
 
@@ -33,18 +41,8 @@ Sábados de 10 a 13hs
 
 **Colab** es un entorno de notebooks de Google que funciona desde el navegador. Python ya viene instalado y el código se ejecuta en la nube.
 
-### Abrir un notebook de este repositorio
-Hacé clic en el botón de cada notebook:
-
-| Notebook | Abrir |
-|---|---|
-| Clase 1 | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase1_alumnos.ipynb) |
-| Repaso | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase1_repaso.ipynb) |
-| Clase 2 · Parte 1 (repaso Módulo 1) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase2_parte1_repaso_modulo1_alumnos.ipynb) |
-| Clase 2 · Parte 2 (Módulo 2: funciones) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aibarrera/Python_Analisis_de_Datos_86215/blob/main/clase2_parte2_funciones_alumnos.ipynb) |
-
 ### Cómo se usa
-1. **Iniciá sesión** con tu cuenta de Google si te lo pide.
+1. Hacé clic en el botón **Abrir en Colab** de la tabla de arriba e **iniciá sesión** con tu cuenta de Google si te lo pide.
 2. **Guardá tu propia copia** para no perder tus cambios: menú **Archivo → Guardar una copia en Drive**. *Los cambios que hagas en el notebook original no se guardan en GitHub.*
 3. Un notebook tiene **celdas de texto** y **celdas de código**. Para ejecutar una celda de código: hacé clic en ella y presioná **`Shift + Enter`** (o el botón ▶ de la izquierda).
 4. **Ejecutá las celdas en orden, de arriba hacia abajo.** Si saltás una, puede aparecer un error porque falta algo que se definía antes.
@@ -52,7 +50,7 @@ Hacé clic en el botón de cada notebook:
 6. Si algo se traba o querés empezar de cero: **Entorno de ejecución → Reiniciar sesión**. Para ejecutar todo de una vez: **Entorno de ejecución → Ejecutar todas**.
 7. Para guardar una copia en tu computadora: **Archivo → Descargar → Descargar .ipynb**.
 
-> 💡 Si en el notebook aparece un **error** en rojo, no pasa nada: leé la **última línea**, dice qué falló.
+> 💡 Si en el notebook aparece un **error** en rojo, no pasa nada: leé la **última línea**, dice qué falló. En algunas celdas el error es **a propósito** (están marcadas con ⚠️) para que veas cómo se lee.
 
 ---
 
@@ -71,7 +69,7 @@ Es **JupyterLite**: una versión de Jupyter que corre **dentro de tu navegador**
 
 ### Para tener en cuenta
 - Tu trabajo **se guarda en el navegador**, no en la nube. Para conservarlo, **descargá el notebook** (clic derecho sobre el archivo → **Download**).
-- Es más lento que Colab y algunas librerías pueden no estar disponibles o necesitar instalación.
+- Es más lento que Colab y algunas librerías pueden no estar disponibles o necesitar instalación. **Para NumPy te recomendamos Colab.**
 - Si cambiás de navegador o borrás los datos del sitio, el trabajo puede perderse.
 
 ---
@@ -95,62 +93,55 @@ Durante la semana vamos a ver y a profundizar en cómo trabajar **en tu computad
 | `Ctrl + Enter` | ejecuta la celda y se queda en ella |
 | `Ctrl + M` luego `B` (Colab) | agrega una celda de código debajo |
 
-## 🔗 Recursos vistos en clase
-- [Encuesta de Sueldos 2026.01 · OpenQube](https://sueldos.openqube.io/encuesta-sueldos-2026.01/): datos reales que usamos como ejemplo.
+---
 
 ## 📝 Sobre el material
-Los datos de ejemplo son **ficticios** (la cadena de tiendas **ModaSur** de la Clase 2), salvo los números de la Encuesta de Sueldos, que se citan con su fuente.
 
-En la Clase 2, la parte 2 crea un archivo `modulo_modasur.py` al ejecutarse (con `%%writefile`): no hace falta descargarlo, el propio notebook lo genera.
+Los datos de ejemplo son **ficticios** (la cadena de tiendas **ModaSur**, que usamos desde la Clase 2), salvo los números de la Encuesta de Sueldos, que se citan con su fuente.
+
+Si un notebook necesita crear un archivo (por ejemplo, la Clase 2 · Parte 2 genera `modulo_modasur.py` con `%%writefile`), **no hace falta descargarlo**: el propio notebook lo genera al ejecutarse.
 
 ---
-### Sitio para aprender estadistica
 
-- https://www.khanacademy.org/math/probability
+## 🔗 Recursos
 
-### Sitio de los Analistas de Datos y Cientificos de Datos
+**Vistos en clase**
+- [Encuesta de Sueldos 2026.01 · OpenQube](https://sueldos.openqube.io/encuesta-sueldos-2026.01/): datos reales que usamos como ejemplo.
 
-- https://www.kaggle.com/
+**Para profundizar en NumPy (Clase 3)**
+- [NumPy · What is NumPy?](https://numpy.org/devdocs/user/whatisnumpy.html): documentación oficial (en inglés).
+- [NumPy · absolute beginners](https://numpy.org/doc/stable/user/absolute_beginners): guía oficial para empezar.
+- VanderPlas, J. (2022). *Python Data Science Handbook*, 2.ª ed., O'Reilly. Cap. 8, «Computation on Arrays: Broadcasting»: <https://www.oreilly.com/library/view/python-data-science/9781098121211/ch08.html>
 
-### Sitio de descarga de Anaconda
+**Sitios útiles**
+- Estadística: <https://www.khanacademy.org/math/probability>
+- Comunidad de analistas y científicos de datos: <https://www.kaggle.com/>
+- Descarga de Anaconda: <https://www.anaconda.com/download/success>
+- Proyectos y librerías de Python (el repositorio más grande): <https://pypi.org/>
 
-- https://www.anaconda.com/download/success
+---
 
+## 🔄 Las 4 etapas del Análisis de Datos
 
-### Sitio de proyectos / librerias mas grande del mundo con Python
+**1. Recolección de datos (fuentes)**
+1. Bases de datos
+2. Archivos txt, csv, xls, etc.
+3. Webs
+4. APIs (*Application Program Interface*)
 
-- https://pypi.org/
+**2. Limpieza** (quizás la más costosa en esfuerzo)
+1. Ordenamiento
+2. Depuración
+3. Búsqueda de datos confiables y consistentes
 
-## 4 Etapas del Análisis de Datos
+**3. Análisis**
+1. Herramientas (técnicas de Python)
+2. Estadística
+3. Metodología de construcción de dashboards
 
-### Primer etapa de AD
-
-- Recolección de Datos (Fuentes)
-  1. Base de Datos
-  2. Archivos txt, csv, xls, etc
-  3. Webs
-  4. APIs (Application Program Interface) - Interfaces 
-
-### Segunda etapa de AD  
-
-- Limpieza (quizas es el mas costoso en esfuerzo)
-  1. Ordenamiento
-  2. Depuración 
-  3. Busqueda de datos confiables y consistentes
-
-### Tercer etapa de AD
-
-- Análisis 
-  1. Herramientas (tecnica de Python)
-  2. Estadistica 
-  3. Metodologia de construcción de Dashboards
-
-### Cuarta etapa de AD
-
-- Presentación de la información
-- Storytelling 
+**4. Presentación de la información**
+- Storytelling
 - **Conclusiones**
+- **Se toman decisiones**
 
-- SE TOMAN DECISIONES
-
-"El AD no sirve si no se toman decisiones"
+> *"El AD no sirve si no se toman decisiones."*
